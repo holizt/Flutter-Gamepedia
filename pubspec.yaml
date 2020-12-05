@@ -1,0 +1,43 @@
+name: gamebot
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bottom_navy_bar: ^5.5.0
+  cupertino_icons: ^1.0.0
+  equatable: ^1.2.5
+  flutter_bloc: ^6.0.6
+  flutter_staggered_animations: ^0.1.2
+  flutter_vector_icons: ^0.2.1
+  http: ^0.12.2
+  page_indicator: ^0.3.0
+  sleek_circular_slider: ^1.2.0+web
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/WorkSans-Regular.ttf
+        - asset: assets/fonts/WorkSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/WorkSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSans-Bold.ttf
+          weight: 700
